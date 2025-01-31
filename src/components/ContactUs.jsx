@@ -3,8 +3,11 @@ import styles from "./ContactUs.module.css"; // Import the CSS module
 const ContactUs = () => {
   return (
     <div className={styles.contactUsContainer}>
-      <div className={styles.sidebarLeft}>
+      <div className={styles.sidebar1}>
         <div>Our Team</div>
+      </div>
+      <div className={styles.sidebar2}>
+        <div>Personal Details</div>
       </div>
       <div className={styles.mainContent}>
         <h1>Contact Us</h1>
@@ -15,9 +18,6 @@ const ContactUs = () => {
           was not really the problem; mistrust came from how it was deployed by
           creators and then understood and used by consumers.
         </p>
-      </div>
-      <div className={styles.sidebarRight}>
-        <div>Personal Details</div>
       </div>
     </div>
   );

@@ -20,9 +20,13 @@ nav {
   gap: 30px; /* Increased spacing between links */
 }
 
-nav a {
+.link {
   text-decoration: none;
   color: #333;
   font-size: 20px; /* Slightly bigger font */
   font-weight: 700; /* Bolder text */
+}
+
+.ourTeam {
+  color: #e60050; /* Apply color #e60050 to "Our Team" link */
 }

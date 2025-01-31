@@ -7,7 +7,7 @@
   font-family: "Open Sans", sans-serif; /* Apply Open Sans font */
 }
 
-.sidebarLeft {
+.sidebar1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +19,7 @@
   text-orientation: upright;
 }
 
-.sidebarRight {
+.sidebar2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
