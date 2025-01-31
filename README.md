@@ -2,6 +2,4 @@
 
 ## A Landing Pade made using React.js.
 
-### [Landing Page]()
-
-![Img]()
+![Img](./public/Img.png)
