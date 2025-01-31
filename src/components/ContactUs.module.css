@@ -4,7 +4,7 @@
   display: flex;
   height: 100vh;
   background: white;
-  font-family: "Open Sans", sans-serif; /* Apply Open Sans font */
+  font-family: "Open Sans", sans-serif;
 }
 
 .sidebar1 {
@@ -40,9 +40,9 @@
   padding: 3rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Aligns content to the top */
-  align-items: flex-start; /* Aligns text to the left */
-  font-family: "Open Sans", sans-serif; /* Ensures Open Sans is used */
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Open Sans", sans-serif;
 }
 
 .mainContent h1 {
@@ -53,5 +53,5 @@
 .mainContent p {
   font-size: 1.2rem;
   line-height: 1.6;
-  max-width: 800px; /* Keeps content readable */
+  max-width: 800px;
 }

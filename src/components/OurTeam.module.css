@@ -4,7 +4,7 @@
   display: flex;
   height: 100vh;
   background: rgb(248, 245, 245);
-  font-family: "Open Sans", sans-serif; /* Apply Open Sans font */
+  font-family: "Open Sans", sans-serif;
 }
 
 .title {
@@ -16,7 +16,7 @@
   max-width: 800px;
   margin-bottom: 20px;
   line-height: 1.6;
-  color: black; /* Set description text color to white */
+  color: black;
 }
 
 .content {

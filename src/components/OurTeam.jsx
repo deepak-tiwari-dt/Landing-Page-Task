@@ -1,4 +1,4 @@
-import styles from "./OurTeam.module.css"; // Import the CSS module
+import styles from "./OurTeam.module.css";
 
 const OurTeam = () => {
   const teamMembers = [

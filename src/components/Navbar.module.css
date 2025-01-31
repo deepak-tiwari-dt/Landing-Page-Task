@@ -4,29 +4,29 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px; /* Increased padding */
+  padding: 20px 40px;
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
-  height: 100px; /* Increased height */
+  height: 100px;
 }
 
 .logo {
-  width: 180px; /* Slightly bigger logo */
+  width: 180px;
   height: auto;
 }
 
 nav {
   display: flex;
-  gap: 30px; /* Increased spacing between links */
+  gap: 30px;
 }
 
 .link {
   text-decoration: none;
   color: #333;
-  font-size: 20px; /* Slightly bigger font */
-  font-weight: 700; /* Bolder text */
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .ourTeam {
-  color: #e60050; /* Apply color #e60050 to "Our Team" link */
+  color: #e60050;
 }

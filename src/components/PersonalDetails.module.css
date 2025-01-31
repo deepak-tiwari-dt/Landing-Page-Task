@@ -3,7 +3,7 @@
 .personalDetailsContainer {
   display: flex;
   height: 100vh;
-  font-family: "Open Sans", sans-serif; /* Apply Open Sans font */
+  font-family: "Open Sans", sans-serif;
 }
 
 .sidebar {
@@ -43,15 +43,15 @@
 
 input,
 textarea {
-  width: 461px; /* Set width to 461px */
-  height: 56px; /* Set height to 56px */
+  width: 461px;
+  height: 56px;
   border-radius: 5px;
   border: 1px solid #ccc;
   padding: 0.5rem;
 }
 
 textarea {
-  height: 150px; /* Adjust height for the textarea */
+  height: 150px;
   margin-top: 1rem;
 }
 

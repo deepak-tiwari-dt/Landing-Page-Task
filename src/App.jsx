@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<OurTeam />} />{" "}
+        <Route path="/" element={<OurTeam />} />
         <Route path="/our-team" element={<OurTeam />} />
         <Route path="/personal-details" element={<PersonalDetails />} />
         <Route path="/contact-us" element={<ContactUs />} />
