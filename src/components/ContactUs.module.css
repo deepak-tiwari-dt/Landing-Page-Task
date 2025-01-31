@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+.contactUsContainer {
+  display: flex;
+  height: 100vh;
+  background: white;
+  font-family: "Open Sans", sans-serif; /* Apply Open Sans font */
+}
+
+.sidebarLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 1rem;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.sidebarRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: white;
+  background-color: #e60050;
+  padding: 1rem;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.mainContent {
+  flex: 1;
+  background: orange;
+  color: white;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns content to the top */
+  align-items: flex-start; /* Aligns text to the left */
+  font-family: "Open Sans", sans-serif; /* Ensures Open Sans is used */
+}
+
+.mainContent h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.mainContent p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px; /* Keeps content readable */
+}

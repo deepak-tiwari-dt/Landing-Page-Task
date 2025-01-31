@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+.ourTeamContainer {
+  display: flex;
+  height: 100vh;
+  background: rgb(248, 245, 245);
+  font-family: "Open Sans", sans-serif; /* Apply Open Sans font */
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  max-width: 800px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: black; /* Set description text color to white */
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.teamCard img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.teamCard h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.teamCard p {
+  font-size: 1rem;
+  color: #666;
+  text-align: left;
+}
+
+.sidebarLeft,
+.sidebarRight {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sidebarLeft {
+  background: #e60050;
+  color: white;
+  text-align: center;
+}
+
+.sidebarRight {
+  background: orange;
+  color: white;
+  text-align: center;
+}
