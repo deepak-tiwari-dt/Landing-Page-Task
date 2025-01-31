@@ -5,22 +5,22 @@ const OurTeam = () => {
     {
       name: "Meredith Allen",
       role: "CEO",
-      img: "../../public/CEO.png",
+      img: "/CEO.png",
     },
     {
       name: "Thomas Woodward",
       role: "COO",
-      img: "../../public/COO.png",
+      img: "/COO.png",
     },
     {
       name: "Wade Barton",
       role: "Business Analyst",
-      img: "../../public/Business-Analyst.png",
+      img: "/Business-Analyst.png",
     },
     {
       name: "Yahir Marquez",
       role: "Marketing Executive",
-      img: "../../public/Marketing-Executive.png",
+      img: "/Marketing-Executive.png",
     },
   ];
 
